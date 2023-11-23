@@ -1,4 +1,4 @@
-package org.sid.lightecom;
+package org.sid.lightecom.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
