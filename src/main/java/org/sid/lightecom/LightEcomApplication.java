@@ -24,9 +24,9 @@ public class LightEcomApplication implements CommandLineRunner {
 
   @Override
   public void run(String... args) throws Exception {
-    categoryRepository.save(new Category(null,"Ordinateur",null,null));
-    categoryRepository.save(new Category(null,"Printers",null,null));
-    categoryRepository.save(new Category(null,"Smart Phones",null,null));
+    categoryRepository.save(new Category(null,"Ordinateur",null,null,null));
+    categoryRepository.save(new Category(null,"Printers",null,null,null));
+    categoryRepository.save(new Category(null,"Smart Phones",null,null,null));
     Random rnd = new Random();
     categoryRepository.findAll().forEach(c->{
       for (int i = 0; i < 10 ; i++) {
